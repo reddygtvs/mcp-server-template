@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(/opt/homebrew/Caskroom/miniconda/base/envs/mcp-server/bin/python src/server.py)",
+      "WebSearch",
+      "WebFetch(domain:stackoverflow.com)",
+      "Bash(lsof:*)",
+      "Bash(kill:*)",
+      "Bash(curl:*)",
+      "Bash(rm:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
